@@ -412,12 +412,34 @@ footer a i {
     height: 100vh;
   }
 .card {
-  display: inline-block;
-  width: 50%;
-  border-radius: 0;
+  width: 100%;
+  height: 70vh;
 
-}  
-.card img {
-  width: 50%;
-  height: 45vh;
-}  
+}
+.card h5{
+  font-size: 40px;
+  font-family: yu gothic;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+.card a {
+  color: #000000;
+  background-color: #FFF;
+  margin-left: 70vh;
+  border-color: #000000;
+
+}
+.card a:hover {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.card p {
+  font-family: yu gothic;
+  margin-bottom: 5vh;
+}
+.imghover a img {
+  
+  height: 50vh;
+}
